@@ -1,0 +1,9 @@
+<h1>Welcome to the LCS Lottery!</h1>
+
+<%= form_with(url: result_path, method: "get") do |form| %>
+
+  <%= form.label :winning_number, "Input winning number" %>
+  <%= form.text_field :winning_number %><br>
+
+  <%= form.submit "Result" %>
+<% end %>
