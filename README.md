@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a test project. To run it locally 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Clone this into your local machine
+```
+git clone https://github.com/GalinaKr/lottery.git
+```
+go to directory
+`cd lottery` <br>
+run  `bundle install` <br>
+run `rails s` <br>
+Go to `localhost:3000` into your browser
